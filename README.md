@@ -1,2 +1,2 @@
-# Hello-World
+# HackerRank Problem Solutions
 Just learning
