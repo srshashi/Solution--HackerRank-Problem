@@ -1,3 +1,4 @@
+'''python
 ## Inputs: n k arr
 ## n :length of number
 ## k :number of digits that can be changed
@@ -106,3 +107,4 @@ k = int(k)
 arr = list(input())
 ##print(arr)
 ans = possible_pal(arr, n, k)
+'''
