@@ -1,11 +1,17 @@
 #!/bin/python3
 
+## Hackerrank
+## June-world Codesprint 2016: Equal Stacks
+## Beginner Level
+
+
 import sys
 
 ## find length of all 3 stacks
 ## store them in l1, l2, l3
 ## from the biggest stack, remove the last element,
-## update length and check if l1==l2==l3
+## update length
+## do until l1==l2==l3 or any one of l1, l2, l3 is 0
 
 def max_length(h1, h2, h3):
     l1, l2, l3 = 0, 0, 0
