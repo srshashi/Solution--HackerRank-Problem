@@ -1,5 +1,8 @@
+#!/bin/python3
+
 ## Hackerrank
 ## May-world Codesprint 2016: Richie Rich
+## Moderate Level
 
 ## Inputs: n k arr
 ## n :length of number
