@@ -3,6 +3,7 @@
 ## Hackerrank
 ## May-world Codesprint 2016: Richie Rich
 ## Moderate Level
+## Logic #2
 
 ## Inputs: n k arr
 ## n :length of number
