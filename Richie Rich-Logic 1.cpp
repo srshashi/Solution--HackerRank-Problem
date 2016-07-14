@@ -1,6 +1,7 @@
+/* Question is at :- HackerRank>May World CodeSprint>Richie Rich*/
+
 #include <iostream>
 #include <stdlib.h>
-#include <fstream>
 
 using namespace std;
 
