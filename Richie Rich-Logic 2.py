@@ -21,7 +21,7 @@ def string(arr):
 ## if the number is a palindrome then how can we modify it, given k operations can be done
 ## modifies the array
 def modify_pal(arr, n, k):
-    ## if k is even, we can change digit at any palce
+    ## if k is even, we can change digit at any place
     ## but if it is odd, n must be odd and only the middle digit will be replaced by '9'
     if k%2 == 0:
         for i in range(n//2):
