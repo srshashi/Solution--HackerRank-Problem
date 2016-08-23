@@ -115,7 +115,7 @@ int main()
         B = hexToBinary(B);
         C = hexToBinary(C);
 
-        unsigned long i = A.size() - 1;
+        long i = A.size() - 1;
         while(i >=0 && k > 0){
             if(C[i] == '1'){
                     if(A[i] == '0' && B[i] == '0'){
@@ -136,7 +136,8 @@ int main()
             i--;
         }
 
-        for(unsigned long j=0; j< A.size() && k != 0; j++){
+        long j = 0;
+        for(j=0; j< A.size() && k != 0; j++){
             if(A[j] == '1'){
                 if(B[j] == '1'){
                     A[j] = '0';
@@ -150,7 +151,6 @@ int main()
             }
         }
 
-        unsigned long j = 0;
         while(j < A.size()){
             bool a = (bool)(A[j] - 48);
             bool b = (bool)(B[j] - 48);
