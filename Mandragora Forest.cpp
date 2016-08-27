@@ -16,7 +16,7 @@ int main()
         long long p = 0,sum = 0;
         cin >> n;
 
-        vector <long> a(n);
+        vector<long> a;
 
         for(int i=0; i<n; i++){
             cin >> num;
